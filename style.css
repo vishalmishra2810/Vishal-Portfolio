@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .experience, .skills, .projects, .contact, footer{
+.about, .experience, .skills, .socialexistance, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgb(57, 57, 255);
+    background: rgb(110, 110, 241);
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -120,7 +120,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(57, 57, 255);
+    background: rgb(110, 110, 241);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -193,23 +193,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: rgb(57, 57, 255);
+    background: rgb(110, 110, 241);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid rgb(57, 57, 255);
+    border: 2px solid rgb(110, 110, 241);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
     background: none;
 }
 
@@ -235,44 +235,44 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: rgb(57, 57, 255);
+    background: rgb(110, 110, 241);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(57, 57, 255);
+    border: 2px solid rgb(110, 110, 241);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
     background: none;
 }
 
 /* experience section styling */
-.experience, .projects{
+.experience, .socialexistance{
     color:#fff;
     background: #111;
 }
 .experience .title::before,
-.projects .title::before{
+.socialexistance .title::before{
     background: #fff;
 }
 .experience .title::after,
-.projects .title::after{
+.socialexistance .title::after{
     background: #111;
-    content: "what i provide";
+    content: "what i did";
 }
 .experience .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(100% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -281,7 +281,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .experience .serv-content .card:hover{
-    background: rgb(57, 57, 255);
+    background: rgb(110, 110, 241);
 }
 .experience .serv-content .card .box{
     transition: all 0.3s ease;
@@ -291,7 +291,7 @@ section .title::after{
 }
 .experience .serv-content .card i{
     font-size: 50px;
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
     transition: color 0.3s ease;
 }
 .experience .serv-content .card:hover i{
@@ -321,18 +321,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: rgb(57, 57, 255);
+    background: rgb(110, 110, 241);
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(57, 57, 255);
+    border: 2px solid rgb(110, 110, 241);
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -360,10 +360,10 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(57, 57, 255);
+    background: rgb(110, 110, 241);
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 100%;
 }
 .skills-content .right .css::before{
     width: 60%;
@@ -378,11 +378,11 @@ section .title::after{
     width: 70%;
 }
 
-/* projects section styling */
-.projects .title::after{
-    content: "who with me";
+/* socialexistance section styling */
+.socialexistance .title::after{
+    content: "where i am";
 }
-.projects .carousel .card{
+.socialexistance .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -390,33 +390,33 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.projects .carousel .card:hover{
-    background: rgb(57, 57, 255);
+.socialexistance .carousel .card:hover{
+    background: rgb(110, 110, 241);
 }
-.projects .carousel .card .box{
+.socialexistance .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.projects .carousel .card:hover .box{
+.socialexistance .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.projects .carousel .card .text{
+.socialexistance .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.projects .carousel .card img{
+.socialexistance .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid rgb(57, 57, 255);
+    border: 0px solid rgb(110, 110, 241);
     transition: all 0.3s ease;
 }
-.projects .carousel .card:hover img{
+.socialexistance .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
@@ -429,7 +429,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid rgb(57, 57, 255)!important;
+    border: 2px solid rgb(110, 110, 241)!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -438,7 +438,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: rgb(57, 57, 255)!important;
+    background: rgb(110, 110, 241)!important;
 }
 
 /* contact section styling */
@@ -469,7 +469,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -528,12 +528,12 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: rgb(57, 57, 255);
-  border: 2px solid rgb(57, 57, 255);
+  background: rgb(110, 110, 241);
+  border: 2px solid rgb(110, 110, 241);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: rgb(57, 57, 255);
+  color: rgb(110, 110, 241);
   background: none;
 }
 /* footer section styling */
@@ -544,7 +544,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: rgb(57, 57, 255);
+    color: rgb(110, 110, 241);
     text-decoration: none;
 }
 footer span a:hover{
