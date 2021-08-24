@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .experience, .skills, .socialexistance, .contact, footer{
+.about, .experience, .skills, .myprojects, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -258,16 +258,16 @@ section .title::after{
 }
 
 /* experience section styling */
-.experience, .socialexistance{
+.experience, .myprojects{
     color:#fff;
     background: #111;
 }
 .experience .title::before,
-.socialexistance .title::before{
+.myprojects .title::before{
     background: #fff;
 }
 .experience .title::after,
-.socialexistance .title::after{
+.myprojects .title::after{
     background: #111;
     content: "what i did";
 }
@@ -378,11 +378,11 @@ section .title::after{
     width: 70%;
 }
 
-/* socialexistance section styling */
-.socialexistance .title::after{
+/* myprojects section styling */
+.myprojects .title::after{
     content: "where i am";
 }
-.socialexistance .carousel .card{
+.myprojects .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -390,25 +390,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.socialexistance .carousel .card:hover{
+.myprojects .carousel .card:hover{
     background: rgb(110, 110, 241);
 }
-.socialexistance .carousel .card .box{
+.myprojects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.socialexistance .carousel .card:hover .box{
+.myprojects .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.socialexistance .carousel .card .text{
+.myprojects .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.socialexistance .carousel .card img{
+.myprojects .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -416,7 +416,7 @@ section .title::after{
     border: 0px solid rgb(110, 110, 241);
     transition: all 0.3s ease;
 }
-.socialexistance .carousel .card:hover img{
+.myprojects .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
