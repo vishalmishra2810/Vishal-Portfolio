@@ -441,6 +441,68 @@ section .title::after{
     background: rgb(110, 110, 241)!important;
 }
 
+
+/* leadership section styling */
+
+.leadership .title::after{
+    content: "What i Contribute";
+}
+.leadership .leadership-content .column{
+    width: calc(50% - 30px);
+}
+.leadership .leadership-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.leadership .leadership-content .left p{
+    text-align: justify;
+}
+.leadership .leadership-content .left a{
+    display: inline-block;
+    background: rgb(110, 110, 241);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(110, 110, 241);
+    transition: all 0.3s ease;
+}
+.leadership .leadership-content .left a:hover{
+    color: rgb(110, 110, 241);
+    background: none;
+}
+.leadership .leadership-content .right .bars{
+    margin-bottom: 15px;
+}
+.leadership .leadership-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.leadership .leadership-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.leadership .leadership-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.leadership .leadership-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(110, 110, 241);
+}
+
+
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
