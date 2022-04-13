@@ -35,24 +35,30 @@
     <link rel="stylesheet" href="src/style/css/main.css" />
 
     <title>AlogViz - An easy to use Interactive Graph Path visualizer</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165471746-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-165471746-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-165471746-1');
-</script>
-
-</head>
+      gtag("config", "UA-165471746-1");
+    </script>
+  </head>
 
   <body>
     <section id="home">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0 sticky-top">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-primary py-0 sticky-top"
+      >
         <a class="navbar-brand d-flex text-white">
           PathViz &nbsp;
-          <div class="d-none action-panel d-lg-none ">
+          <div class="d-none action-panel d-lg-none">
             <button class="btn btn-warning btn-sm start-stop-btn">
               Visualize
             </button>
@@ -93,14 +99,14 @@
                 <a class="dropdown-item disabled" onclick="RandomGrid()"
                   >Random Grid</a
                 >
-                <div class="dropdown-divider"></div>
+                <!-- <div class="dropdown-divider"></div>
                 <h6 class="dropdown-header">Upcoming Updates</h6>
-                <!-- <a class="dropdown-item disabled" href="#"
+                <a class="dropdown-item disabled" href="#"
                   >DFS Maze Generation</a
-                > -->
-                <!-- <a class="dropdown-item disabled" href="#"
+                > 
+                 <a class="dropdown-item disabled" href="#"
                   >Recursive backtracker</a
-                > -->
+                > 
                 <a class="dropdown-item disabled" href="#"
                   >Randomized Prim's algorithm</a
                 >
@@ -109,7 +115,7 @@
                 >
                 <a class="dropdown-item disabled" href="#"
                   >Recursive Division</a
-                >
+                > -->
 
                 <!-- <a class="dropdown-item" onclick="fillBlock('fill2')">Fill 2</a> -->
               </div>
@@ -210,11 +216,11 @@
                 <!-- <a class="dropdown-item algo-selection" data-algo="unknown"
                   >Unknown Algorithm</a
                 > -->
-                <div class="dropdown-divider"></div>
+                <!-- <div class="dropdown-divider"></div>
                 <h6 class="dropdown-header">Upcoming Updates</h6>
                 <a class="dropdown-item disabled" href="#" data-algo="dfsMaze"
                   >Best First Search</a
-                >
+                > -->
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -332,7 +338,7 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="https://github.com/raj457036/Path-Finding-Visualizer/"
+                href="https://github.com/vishalmishra2810/Pathvisualiser"
                 target="_blank"
               >
                 <i class="fa fa-github"></i> Github</a
