@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #007acc;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .contact p {
+    margin: 0.5rem 0;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 0.5rem;
+    color: #007acc;
+  }
+  
+  .job, .project {
+    margin-top: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
